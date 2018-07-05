@@ -24,6 +24,8 @@ describe("Table.vue", () => {
   });
 
   it("renders the correct number of lines", () => {
+    // eslint-disable-next-line
+    debugger;
     const wrapper = mount(Table, { store, localVue });
     expect(wrapper.findAll('[data-test="challenge-table-row"]').length).toEqual(
       3,
