@@ -1,5 +1,5 @@
 <template>
-  <tr>
+  <tr data-test="challenge-table-row">
     <td v-text="basketLine.id" />
     <td v-text="basketLine.name" />
     <td v-text="basketLine.comments" />

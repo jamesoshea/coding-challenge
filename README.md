@@ -3,6 +3,7 @@
 ## Description
 
 > A basket component using Vue/Vuex, based on tooling provided by vue-cli 3.
+
 > Live demo at james-coding-challenge.netlify.com
 
 ## Installation
