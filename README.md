@@ -4,7 +4,7 @@
 
 > A basket component using Vue/Vuex, based on tooling provided by vue-cli 3.
 
-> Live demo at james-coding-challenge.netlify.com
+> Demo at james-coding-challenge.netlify.com
 
 ## Installation
 
@@ -18,4 +18,4 @@ Run unit tests with `yarn test:unit`
 
 ## License
 
-_coding-challenge_ is realeased under the MIT License.
+_coding-challenge_ is released under the MIT License.
