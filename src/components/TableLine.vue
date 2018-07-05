@@ -3,9 +3,9 @@
     <td v-text="basketLine.id" />
     <td v-text="basketLine.name" />
     <td v-text="basketLine.comments" />
-    <td v-text="basketLine.price" />
+    <td v-text="priceRepresentation" />
     <td v-text="basketLine.taxRate" />
-    <td v-text="basketLine.itemTotal" />
+    <td v-text="totalRepresentation" />
     <td
       class="challenge__delete-button"
       v-text="'X'"
@@ -22,6 +22,24 @@ export default {
       type: Object,
       required: true,
     },
+  },
+  computed: {
+    priceRepresentation() {
+      return this.basketLine.price.toLocaleString('de-DE', 
+        { 
+          style: 'currency',
+          currency: 'EUR'
+        }
+      );
+    },
+    totalRepresentation() {
+      return this.basketLine.itemTotal.toLocaleString('de-DE', 
+        { 
+          style: 'currency',
+          currency: 'EUR'
+        }
+      );
+    }
   },
   methods: {
     deleteLine(id) {
