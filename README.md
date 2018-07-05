@@ -2,7 +2,7 @@
 
 ## Description
 
-> A basket component using Vue/Vuex
+> A basket component using Vue/Vuex, based on tooling provided by vue-cli 3.
 
 ## Installation
 
@@ -11,6 +11,7 @@
 ## How To Use
 
 Run the dev server with `yarn serve`
+Run unit tests with `yarn test:unit`
 
 ## License
 
