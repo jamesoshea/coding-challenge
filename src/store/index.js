@@ -3,8 +3,10 @@ import Vuex from "vuex";
 
 Vue.use(Vuex);
 
+import BasketModule from "./modules/basket";
+
 export default new Vuex.Store({
-  state: {},
-  mutations: {},
-  actions: {}
+  modules: {
+    basket: BasketModule,
+  },
 });
